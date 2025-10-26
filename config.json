@@ -1,0 +1,15 @@
+{
+  "default_settings": {
+    "welcome_channel": null,
+    "welcome_message": "Welcome {user} to {server}!",
+    "xp_per_message": [1, 5],
+    "level_formula": "level = floor(xp / 100)",
+    "spam_threshold": 5,
+    "auto_mute_warnings": 3,
+    "banned_words": ["badword1", "badword2"]
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "bot.log"
+  }
+}
